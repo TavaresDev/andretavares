@@ -1,0 +1,99 @@
+:root {
+    --color1:#195f3d;
+    --color2:linear-gradient(to right,#195f3d ,#172f21, #122b20);
+    --color3:#000;
+    --color4:#333;
+}
+body {
+    background: #000;
+    color:white;
+}
+.navbar{
+    border-bottom:var(--color1) 3px solid;
+    opacity: 1;
+}
+.home-section{
+    background: url(../img/TorontoIland.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height:700px; 
+}
+.home-section .dark-overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    min-height:700px ;
+    background: rgba(256, 256, 256, .5)
+}
+.home-section .home-inner {
+    padding-top:150px;
+}
+.box{
+    border: 2px solid #000;
+
+}
+/* -------------------------- gallery ------------- */
+/* Photo Gallery leyout responsive with css grid */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:1rem; 
+    /* padding: 1rem; */
+}
+.gallery-container img {
+    object-fit: cover;
+}
+/* .gallery-container > div {
+    border: solid 1px black;
+    border-radius: 1rem;
+    display: block;
+    width: 100%;
+
+} */
+.gallery-container > div > img {
+    /* height: 100%; */
+    /* width: 100%;  */
+    /* border-radius: 1rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+    shape-outside: border-box; */
+}
+/* .gallery-container > div > img :hover {
+    background: rgba(101, 56, 228, 0.623)
+} */
+.box{
+    /* background-image: url("../img/jsGame.png"); */
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* height:500px; */
+
+    /* justify-items: center; */
+    /* align-items: center; */
+}
+/*
+.box .box-text{
+ 
+    position: absolute;
+    z-index: 999;
+ 
+    text-align: center;
+
+    background: rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+}
+.box .text:hover {
+    background: rgba(0, 0, 0, 1);
+    color:rgba(103, 0, 0, 1);
+}  */
+
+
+/* Footer */
+.hoverBig:hover{
+    /* font-size:1.2rem;   */
+    opacity: 0.8;
+  }

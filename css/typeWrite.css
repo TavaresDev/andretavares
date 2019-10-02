@@ -1,0 +1,43 @@
+/* css to format and make the banner responsive */
+.inner-banner{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#ddd;
+
+}
+.inner-banner h1, h2 {
+    font-weight: 200;
+    margin: 0.4rem;
+}
+.inner-banner h1 {
+    font-size: 3.5rem;
+}
+.inner-banner h2 {
+    font-size: 2rem;
+}
+
+/* cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+@media(min-width:1200px) {
+    .inner-banner h1 {
+        font-size: 5rem;
+    }
+}
+@media(max-width:800px) {
+    .inner-banner {
+        padding: 0 1rem;
+    }
+    .inner-banner h1 {
+        font-size:3rem;
+    }
+}
+@media(max-width:500px) {
+    .inner-banner h1 {
+        font-size: 2.5rem;
+    }
+    .inner-banner h2 {
+        font-size: 1.5rem;
+    }
+}
