@@ -255,15 +255,17 @@
 				<!-- </div> -->
 				<div class="col-md-4 boxxx ">
 					<!-- <div class="container"> -->
-					<form action="">
+					<form name="contact" method="POST" data-netlify="true">
 						<fieldset class="form-group">
-							<input type="text" class="form-control" placeholder="Name">
+							<input type="text" class="form-control" placeholder="Name" required
+							name="name">
 						</fieldset>
 						<fieldset class="form-group">
-							<input type="email" class="form-control" placeholder="Email">
+							<input type="email" class="form-control" placeholder="Email" required
+							name="email">
 						</fieldset>
 						<fieldset class="form-group">
-							<textarea class="form-control" name="menssage" rows="3" id=""
+							<textarea class="form-control" name="menssage" rows="3" required id=""
 								placeholder="Menssage"></textarea>
 						</fieldset>
 						<button class="btn btn-dark float-right " type="submit">Send</button>
