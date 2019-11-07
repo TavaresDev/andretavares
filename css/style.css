@@ -13,7 +13,7 @@ body {
     opacity: 1;
 }
 .home-section{
-    background: url(../img/TorontoIland.jpg);
+    background: url(../img/TorontoIlandEd.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -33,6 +33,20 @@ body {
 .box{
     border: 2px solid #000;
 
+}
+
+/* About me */
+.skill-list{
+    
+}
+.github-link{
+  
+    color: #999;
+}
+.github-link:hover{
+    color: #555;
+    text-decoration:none;
+    font-weight: 600;
 }
 /* -------------------------- gallery ------------- */
 /* Photo Gallery leyout responsive with css grid */

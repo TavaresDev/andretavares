@@ -10,7 +10,7 @@
 	<!-- w3css -->
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<!--css to format and make the banner responsive-->
 	<link rel="stylesheet" href="css/typeWrite.css">
 	<!-- main css -->
@@ -35,7 +35,7 @@
 						<a class="nav-link" href="#about-head-section">ABOUT</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#portifolio-head-section">PORTIFOLIO</a>
+						<a class="nav-link" href="#portfolio-head-section">PORTFOLIO</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact-head-section">CONTACT</a>
@@ -44,11 +44,11 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="http://www.linkedin.com/in/andre--tavares" target="_blank"><i
-							class="fa fa-linkedin fa-2x"></i></a>
+								class="fa fa-linkedin fa-2x"></i></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link"href="https://github.com/TavaresDev?tab=repositories" target="_blank"><i 
-							class="fa fa-github fa-2x"></i></a>
+						<a class="nav-link" href="https://github.com/TavaresDev?tab=repositories" target="_blank"><i
+								class="fa fa-github fa-2x"></i></a>
 					</li>
 				</ul>
 			</div>
@@ -65,7 +65,7 @@
 						<h2>I am a <span class="txt-type" data-wait="3000"
 								data-words='["Web Developer", "Scientist", "Maker", "Developer"]'></span> </h2>
 
-						<a href="#" class="btn btn-outline-secondary">Find Out More</a>
+						<a href="portfolio-head-section" class="btn btn-outline-secondary mt-3">Check My Work</a>
 					</div>
 
 				</div>
@@ -92,20 +92,42 @@
 				<!-- if md or more use 6 columns -->
 				<div class="col-md-4 boxxx">
 					<div class="container boxxx" style="max-width: 300px">
-						<img src="img/me.jpg" alt="" class="img-fluid mb-3 rounded-circle " xxxstyle="max-width: 300px;">
+						<img src="img/me.jpg" alt="" class="img-fluid mb-3 rounded-circle "
+							xxxstyle="max-width: 300px;">
 						<!-- <img src="img/profilePic.jpg" alt="" class="img-fluid mb-3 rounded-circle"> -->
 					</div>
 				</div>
-				<div class="col-md-8 boxxx">
+				<div class="col-md-8 boxxx text-dark">
 					<h3>Who am I?</h3>
-					<p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem soluta quibusdam natus magni
-						aperiam, ipsa, quia minus nisi laborum rerum odio illum similique ducimus eum? Lorem ipsum dolor sit
-						amet, consectetur adipisicing elit. Dicta quas impedit, repellat non aspernatur adipisci possimus
-						harum labore rerum quisquam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam velit
-						eaque possimus quasi cupiditate nisi sit provident culpa qui harum? </p>
+					<p class="py-3 text-muted text-justify">
+						A hardworking and dedicated Web developer with coding skills, creative thinker always looking
+						for a way to learn new things. Results-focused, with great organizational and multi-tasking
+						talents. A personable individual, happy to be a part of a fast-growing industry where there is
+						always space for creativity and improve technology. Focused on agile communication and adapt to
+						diverse environments and new skill sets. </p>
+					<div>
+						<h4 class="title my-3 boxxx">Solid Knowledge in:</h4>
+						<ul class="skill-list py-2">
+							<li class="btn btn-secondary btn-sm">HTML5</li>
+							<li class="btn btn-secondary btn-sm">CSS3</li>
+							<li class="btn btn-secondary btn-sm">JavaScript</li>
+							<li class="btn btn-secondary btn-sm">Responsive Design</li>
+							<li class="btn btn-secondary btn-sm">Mobile First</li>
+							<li class="btn btn-secondary btn-sm">Git</li>
+						</ul>
 
-					<h3>Skills</h3>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat atque aspernatur tempora, hic ab dolor.</p>
+						<h4 class="title my-3 boxxx">Experience with</h4>
+						<ul class="skill-list py-2">
+							<li class="btn btn-secondary btn-sm">SASS</li>
+							<li class="btn btn-secondary btn-sm">PHP</li>
+							<li class="btn btn-secondary btn-sm">MySql</li>
+							<li class="btn btn-secondary btn-sm">Java</li>
+							<li class="btn btn-secondary btn-sm">Python</li>
+							<li class="btn btn-secondary btn-sm">IoT</li>
+							<li class="btn btn-secondary btn-sm">C#</li>
+							<li class="btn btn-secondary btn-sm">.NET Framework</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -123,59 +145,79 @@
 
 	<!-- portifolio section -->
 
-		<!-- <div class="container">
+	<!-- <div class="container">
 			<div class="row">
 			
 			</div>
 		</div> -->
-	<section id="about-section" class="bg-light text-muted py-5">
+	<section class="bg-light text-muted py-5">
 		<div class="container">
 			<div class="gallery-container">
+				<!-- GrowBox -->
 				<div class="card">
-					<img src="img/The Grow Box ProjectS.png" alt="Alps" class="card-img-top">
+					<a href="https://tavaresdev.github.io/TheGrowBox/" target="_blank" rel="noopener noreferrer">
+						<img src="img/projects/TheGrowBox ProjectSM.png" alt="TheGrowBoxProject" class="card-img-top">
+					</a>
 					<div class="card-body">
-						<p class="text-center text-dark ">Simple game developed using javascript Canvas</p>
-						<p class="text-center text-dark ">HTML | CSS | JS</p>
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/TheGrowBox/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
+						<p class="text-center text-dark small">Simple Responsive WebPage Created Using CSS3 Flexbox and consuming Thinkspeak.com API</p>
+						<p class="text-center text-dark ">HTML5 | CSS3 </p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/TheGrowBox" target="_blank"
+							 rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
 					</div>
-						<!-- <button class="btn btn-secondary">Code</button>
-						<a class="btn btn-secondary align-left" target="_blank"
-							href="https://tavaresdev.github.io/GameJS/">Demo</a>	 -->
+				</div>
+				<!-- Book List -->
+				<div class="card">
+					<a href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer">
+						<img src="img/projects/BookListSm.png" alt="BookList Homepage" class="card-img-top">
+					</a>
+					<div class="card-body">
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
+						<p class="text-center text-dark small">Simple Responsive page using local memory to save list of books</p>
+						<p class="text-center text-dark ">HTML5 | CSS3 | Bootstrap </p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/BookList" target="_blank"
+							 rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+					</div>
+				</div>
+				<!-- FCC Form -->
+				<!-- <div class="card">
+					<a href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer">
+						<img src="img/projects/FCCFormSurveySm.png" alt="FCC Form" class="card-img-top">
+					</a>
+					<div class="card-body">
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
+						<p class="text-center text-dark small">Simple Responsive WebForm developed as part of FreeCodeCamp Responsive Web Design Certification</p>
+						<p class="text-center text-dark ">HTML5 | CSS3 </p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/BookList" target="_blank"
+								rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+					</div>
+				</div> -->
+				<!-- Js game -->
+				<div class="card">
+					<a href="https://tavaresdev.github.io/GameJS/" target="_blank" rel="noopener noreferrer">
+						<img src="img/Projects/jsGame.png" alt="Alps" class="card-img-top">
+					</a>
+					<div class="card-body">
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/GameJS/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
+						<p class="text-center text-dark small">Simple Jump game developed to practice JavaScript concepts</p>
+						<p class="text-center text-dark ">HTML | JavaScript </p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/GameJS" target="_blank"
+								rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+					</div>
 				</div>
 				<div class="card">
-					<img src="img/BookList.png" alt="Alps" class="card-img-top">
-					<div class="card-body">
-						<p class="text-center text-dark ">Simple game developed using javascript Canvas</p>
-						<p class="text-center text-dark ">HTML | CSS | JS</p>
-					</div>
-						<!-- <button class="btn btn-secondary btn-block">Code</button>
-						<a class="btn btn-secondary btn-block" target="_blank"
-							href="https://tavaresdev.github.io/GameJS/">Demo
-						</a>	 -->
-				</div>
-				<div class="card">
-					<img src="img/Myengine.png" alt="Alps" class="card-img-top">
-					<div class="card-body">
-						<p class="text-center text-dark ">Simple game developed using javascript Canvas</p>
-						<p class="text-center text-dark ">HTML | CSS | JS</p>
-					</div>
-						<!-- <button class="btn btn-secondary btn-block">Code</button>
-						<a class="btn btn-secondary btn-block" target="_blank"
-							href="https://tavaresdev.github.io/GameJS/">Demo
-						</a>	 -->
-				</div>
-				<div class="card">
-					<img src="img/Myengine.png" alt="Alps" class="card-img-top">
+					<img src="img/projects/MyengineSm.png" alt="Alps" class="card-img-top">
 					<!-- <img src="https://via.placeholder.com/250" alt="Alps" class="card-img-top"> -->
 					<div class="card-body">
 						<p class="text-center text-dark ">Simple game developed using javascript Canvas</p>
 						<p class="text-center text-dark ">HTML | CSS | JS</p>
 					</div>
-						<!-- <button class="btn btn-secondary btn-block">Code</button>
+					<!-- <button class="btn btn-secondary btn-block">Code</button>
 						<a class="btn btn-secondary btn-block" target="_blank"
 							href="https://tavaresdev.github.io/GameJS/">Demo
 						</a>	 -->
 				</div>
-			</div>
+			</div> <!--end of galery card  -->
 		</div>
 	</section>
 	<!-- <div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
@@ -196,38 +238,41 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- contact Section -->
 	<section class="bg-light text-muted py-5">
 		<!-- <h5>Send me a message about my projects or something</h5> -->
 		<div class="container">
-			    <div class="row">
-					<!-- <div class="container"> -->
-						<div class="col-md-4 offset-md-2 h5 my-5 text-dark boxxx">
-							<i class="fa fa-map-marker fa-lg mb-1  " style="width:30px ; color:#111"></i> Barrie, ON<br>
-							<a href="tel:+1(416)6697635"><i class="fa fa-phone fa-lg mb-1" style="width:30px ;color:#111"></i></a> (416) 669 7635<br>
-							<a href="mailto:vtavares.andre@gmail.com"><i class="fa fa-envelope fa-lg" style="width:30px;color:#111 "></i></a> contact@andretavares.dev<br>	
-						</div>
-					<!-- </div> -->
-					<div class="col-md-4 boxxx " >
-						<!-- <div class="container"> -->
-							<form action="">
-								<fieldset class="form-group">
-									<input type="text" class="form-control" placeholder="Name">
-								</fieldset>
-								<fieldset class="form-group">
-									<input type="email" class="form-control" placeholder="Email">
-								</fieldset>
-								<fieldset class="form-group">
-									<textarea class="form-control" name="menssage" rows="3" id="" placeholder="Menssage"></textarea>
-								</fieldset>
-								<button class="btn btn-dark float-right " type="submit">Send</button>
-							</form>
-						<!-- </div> -->
-					</div>
-
+			<div class="row">
+				<!-- <div class="container"> -->
+				<div class="col-md-4 offset-md-2 h5 my-5 text-dark boxxx">
+					<i class="fa fa-map-marker fa-lg mb-1  " style="width:30px ; color:#111"></i> Barrie, ON<br>
+					<a href="tel:+1(416)6697635"><i class="fa fa-phone fa-lg mb-1"
+							style="width:30px ;color:#111"></i></a> (416) 669 7635<br>
+					<a href="mailto:vtavares.andre@gmail.com"><i class="fa fa-envelope fa-lg"
+							style="width:30px;color:#111 "></i></a> contact@andretavares.dev<br>
 				</div>
+				<!-- </div> -->
+				<div class="col-md-4 boxxx ">
+					<!-- <div class="container"> -->
+					<form action="">
+						<fieldset class="form-group">
+							<input type="text" class="form-control" placeholder="Name">
+						</fieldset>
+						<fieldset class="form-group">
+							<input type="email" class="form-control" placeholder="Email">
+						</fieldset>
+						<fieldset class="form-group">
+							<textarea class="form-control" name="menssage" rows="3" id=""
+								placeholder="Menssage"></textarea>
+						</fieldset>
+						<button class="btn btn-dark float-right " type="submit">Send</button>
+					</form>
+					<!-- </div> -->
+				</div>
+
 			</div>
+		</div>
 		</div>
 	</section>
 
@@ -237,13 +282,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col text-center my-4">
-					<a href="https://github.com/TavaresDev?tab=repositories"><i 
-						class="fa fa-github fa-2x text-white hoverBig"></i></a>
-					<a href="http://www.linkedin.com/in/andre--tavares"><i 
-						class="fa fa-linkedin fa-2x text-white hoverBig pl-3"></i></a>
-				
+					<a href="https://github.com/TavaresDev?tab=repositories"><i
+							class="fa fa-github fa-2x text-white hoverBig"></i></a>
+					<a href="http://www.linkedin.com/in/andre--tavares"><i
+							class="fa fa-linkedin fa-2x text-white hoverBig pl-3"></i></a>
+
 					<p class="pt-3">Developed By <a href="http://www.linkedin.com/in/andre--tavares" target="_blank">
-						 Andre Tavares</a> &copy; <span id="year"></span>
+							Andre Tavares</a> &copy; <span id="year"></span>
 					</p>
 				</div>
 			</div>
