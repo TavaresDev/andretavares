@@ -5,21 +5,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+
+	<!-- font awsome for the links -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<!-- w3css -->
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!--css to format and make the banner responsive-->
+
+	<!--CSS bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- NEED -->
 	<link rel="stylesheet" href="css/typeWrite.css">
 	<!-- main css -->
 	<link rel="stylesheet" href="css/style.css">
+
+	<!-- js -->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 	<title>Andre Tavares</title>
 </head>
 
 <body>
-	<nav id="main-nav" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" >
+	<nav id="main-nav" class="navbar navbar-expand-sm navbar-dark" >
 		<!-- can remove this container to make it the hole page -->
 		<div class="container">
 			<!-- <a class="navbar-brand" href="#">A.Tavares</a>	 -->
@@ -54,23 +59,21 @@
 			</div>
 		</div>
 	</nav>
+	<br>
 	<!--Header banner -->
-	<header id="home-section" class="home-section">
-		<div class="dark-overlayxxx">
-			<div class="container home-inner ">
-				<!-- <div class="row"> -->
-					<div class="inner-banner text-center text-dark">
-						<h1> Andre Tavares </h1>
+	<header id="home-section" class="home-section ">
 
-						<h2><span class="txt-type" data-wait="3000"
-								data-words='["Web Developer", "Scientist", "Maker", "Developer"]'></span> </h2>
+		<div class="container home-inner ">
+			<div class="inner-banner text-center text-dark">
+				<h1> Andre Tavares </h1>
 
-						<a href="#portfolio-head-section" class="btn btn-outline-secondary mt-3">Check My Work</a>
-					</div>
+				<h2><span class="txt-type" data-wait="3000"
+						data-words='["Web Developer", "Scientist", "Maker", "Developer"]'></span> </h2>
 
-				<!-- </div> -->
+				<!-- <a href="#portfolio-head-section" class="btn btn-outline-secondary mt-3">Check My Work</a> -->
 			</div>
 		</div>
+
 	</header>
 
 	<!--About-head  -->
@@ -94,7 +97,7 @@
 					<div class="container boxxx" style="max-width: 300px">
 						<img src="img/me.jpg" alt="" class="img-fluid mb-3 rounded-circle "
 							xxxstyle="max-width: 300px;">
-						<!-- <img src="img/profilePic.jpg" alt="" class="img-fluid mb-3 rounded-circle"> -->
+						
 					</div>
 				</div>
 				<div class="col-md-8 boxxx text-dark">
@@ -134,11 +137,11 @@
 	</section>
 
 	<!-- Portfolio head -->
-	<section id="portfolio-head-section" class="bg-secondaryxxx py-2">
+	<section id="portfolio-head-section" class=" py-2">
 		<div class="row">
 			<div class="col text-center py-5">
-				<h1 class="display-4">Portfolio</h1>
-				<p class="lead">Some of My recent projects</p>
+				<h1 class="display-4 text-muted">Projects</h1>
+				<!-- <p class="lead">Some of My recent projects</p> -->
 			</div>
 		</div>
 	</section>
@@ -208,9 +211,7 @@
 			</div> <!--end of galery card  -->
 		</div>
 	</section>
-	<!-- <div class="w3-container w3-content w3-padding-64" style="max-width:1200px">
-		
-	</div> -->
+
 
 
 	<!-- skills section -->
@@ -220,9 +221,8 @@
 	<section id="contact-head-section" class=" py-2">
 		<div class="row">
 			<div class="col text-center py-5">
-				<h1 class="display-4">Contact</h1>
-				<p class="lead">
-				</p>
+				<h1 class="display-4 text-muted">Contact</h1>
+		
 			</div>
 		</div>
 	</section>
@@ -235,8 +235,8 @@
 				<!-- <div class="container"> -->
 				<div class="col-md-4 offset-md-2 h5 my-5 text-dark boxxx">
 					<i class="fa fa-map-marker fa-lg mb-1  " style="width:30px ; color:#111"></i> Barrie, ON<br>
-					<a href="tel:+1(416)6697635"><i class="fa fa-phone fa-lg mb-1"
-							style="width:30px ;color:#111"></i></a> (416) 669 7635<br>
+					<!-- <a href="tel:+1(416)6697635"><i class="fa fa-phone fa-lg mb-1"
+							style="width:30px ;color:#111"></i></a> (416) 669 7635<br> -->
 					<a href="mailto:vtavares.andre@gmail.com"><i class="fa fa-envelope fa-lg"
 							style="width:30px;color:#111 "></i></a> contact@andretavares.dev<br>
 				</div>
@@ -286,16 +286,15 @@
 	</footer>
 
 
-	<!-- JavaScript -->
 	<!-- full jquery, popper and bootstrap4 js -->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
 		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
 		crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-		crossorigin="anonymous"></script>
+		crossorigin="anonymous"></script> -->
 
 	<!-- my script -->
 	<script>
