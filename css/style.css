@@ -9,16 +9,16 @@ body {
     color:white;
 }
 .navbar{
-    border-bottom:var(--color1) 3px solid;
-    opacity: 1;
+    /* border-bottom:var(--color1) 3px solid;
+    opacity: 1; */
 }
 .home-section{
-    background: url(../img/TorontoIlandEd-compressor.jpg);
+    /* background: url(../img/TorontoIlandEd-compressor.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* background-size: 100% 100%; */
-    min-height:700px; 
+    /* min-height:700px;  */
 }
 .home-section .dark-overlay {
     position: absolute;
