@@ -8,26 +8,27 @@ body {
     background: #000;
     color:white;
 }
-.navbar{
-    /* border-bottom:var(--color1) 3px solid;
-    opacity: 1; */
+#main-nav{
+    background: #000;
+    
 }
+
 .home-section{
     /* background: url(../img/TorontoIlandEd-compressor.jpg);
     background-repeat:no-repeat;
     background-size: cover;
     background-attachment: fixed; */
     /* background-size: 100% 100%; */
-    /* min-height:700px;  */
+    min-height:100vh; 
 }
-.home-section .dark-overlay {
+/* .home-section .dark-overlay {
     position: absolute;
     top:0;
     left: 0;
     width: 100%;
     min-height:700px ;
     background: rgba(256, 256, 256, .5)
-}
+} */
 .home-section .home-inner {
     padding-top:150px;
 }
@@ -49,6 +50,7 @@ body {
     text-decoration:none;
     font-weight: 600;
 }
+
 /* -------------------------- gallery ------------- */
 /* Photo Gallery leyout responsive with css grid */
 .gallery-container {

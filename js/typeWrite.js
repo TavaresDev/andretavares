@@ -58,3 +58,35 @@ function init() {
     //init TypeWriter
     new TypeWriter( txtElement, words, wait)
 }
+
+
+// something else
+
+// document.addEventListener('DOMContentLoaded', (event) => {
+//     console.log('DOM fully loaded and parsed');
+//     call2()
+
+// });
+
+function call() {
+
+    fetch("../pepper.html")
+    .then(response => {
+        console.log(response)
+        return response.text()
+    })
+    .then(data => {
+        document.querySelector(".pepperSection").innerHTML = data;
+    });
+}
+function call2() {
+
+    fetch("../NavBar.html")
+    .then(response => {
+        console.log(response)
+        return response.text()
+    })
+    .then(data => {
+        document.querySelector(".nav").insertAdjacentHTML('afterend', data);
+    });
+}

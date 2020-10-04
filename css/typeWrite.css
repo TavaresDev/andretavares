@@ -1,6 +1,7 @@
 /* css to format and make the banner responsive */
 .inner-banner{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     color:#ddd;
 
 }
@@ -18,6 +19,7 @@
 /* cursor */
 .txt-type > .txt {
     border-right: 0.2rem solid #777;
+
 }
 
 @media(min-width:1200px) {
