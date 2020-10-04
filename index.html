@@ -17,36 +17,44 @@
 	<link rel="stylesheet" href="css/style.css">
 
 	<!-- js -->
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 	<title>Andre Tavares</title>
 </head>
 
 <body>
-	<nav id="main-nav" class="navbar navbar-expand-sm navbar-dark sticky-top" >
+
+
+	<!-- <div class="nav"></div> -->
+
+	<nav id="main-nav" class="navbar navbar-expand-sm navbar-dark sticky-top">
 		<!-- can remove this container to make it the hole page -->
 		<div class="container">
-			<!-- <a class="navbar-brand" href="#">A.Tavares</a>	 -->
+			<a class="navbar-brand" href="#">AT</a>
 			<button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#mainNavBar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div id="mainNavBar" class="collapse navbar-collapse ">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item">
+				<ul class="navbar-nav ml-auto">
+					<!-- <li class="nav-item">
 						<a class="nav-link" href="#home-section">HOME</a>
+					</li> -->
+					<li class="nav-item mx-auto">
+						<a class="nav-link" href="#about-section">ABOUT</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#about-head-section">ABOUT</a>
+					<li class="nav-item mx-auto">
+						<a class="nav-link" href="#portfolio-head-section">PROJECTS</a>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#portfolio-head-section">PORTFOLIO</a>
-					</li>
-					<li class="nav-item">
+					<li class="nav-item mx-auto">
 						<a class="nav-link" href="#contact-head-section">CONTACT</a>
 					</li>
+					<li class="nav-item mx-auto">
+						<a class="nav-link" href="pepper.html">PEPPER</a>
+					</li>
 				</ul>
-				<ul class="navbar-nav ml-auto">
+				<!-- <ul class="navbar-nav ml-auto">
 					<li class="nav-item">
 						<a class="nav-link" href="http://www.linkedin.com/in/andre--tavares" target="_blank"><i
 								class="fa fa-linkedin fa-2x"></i></a>
@@ -55,20 +63,32 @@
 						<a class="nav-link" href="https://github.com/TavaresDev?tab=repositories" target="_blank"><i
 								class="fa fa-github fa-2x"></i></a>
 					</li>
-				</ul>
+				</ul> -->
 			</div>
 		</div>
 	</nav>
-	<br>
+
+
 	<!--Header banner -->
 	<header id="home-section" class="home-section ">
 
 		<div class="container home-inner ">
 			<div class="inner-banner text-center text-dark">
-				<h1> Andre Tavares </h1>
+				<h1 class="mb-5"> André Tavares </h1>
 
 				<h2><span class="txt-type" data-wait="3000"
-						data-words='["Web Developer", "Scientist", "Maker", "Developer"]'></span> </h2>
+						data-words='["Software Developer", "Scientist", "Maker", "MacGyver"]'></span>
+				</h2>
+
+				<!-- <div class="container my-5 ">
+					<a class="text-secondary mr-5" href="http://www.linkedin.com/in/andre--tavares" target="_blank"><i
+						class="fa fa-linkedin fa-2x"></i>
+					</a>
+					<a class="text-secondary" href="https://github.com/TavaresDev?tab=repositories" target="_blank"><i
+						class="fa fa-github fa-2x"></i>
+					</a>
+	
+				</div> -->
 
 				<!-- <a href="#portfolio-head-section" class="btn btn-outline-secondary mt-3">Check My Work</a> -->
 			</div>
@@ -76,17 +96,18 @@
 
 	</header>
 
+
 	<!--About-head  -->
-	<section id="about-head-section" class="py-2">
+	<!-- <section id="about-head-section" class="py-2">
 		<div class="row">
-			<div class="col text-center py-5">
-				<!-- <h1 class="display-4">About Me</h1> -->
-				<!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsa possimus
+			<div class="col text-center py-5"> -->
+	<!-- <h1 class="display-4">About Me</h1> -->
+	<!-- <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores blanditiis ipsa possimus
 					quos inventore eveniet, molestias dignissimos esse provident libero!</p> -->
-				<!-- <a href="#" class="btn btn-outline-secondary">Find Out More</a> -->
-			</div>
+	<!-- <a href="#" class="btn btn-outline-secondary">Find Out More</a> -->
+	<!-- </div>
 		</div>
-	</section>
+	</section> -->
 
 	<!-- about-section  -->
 	<section id="about-section" class="bg-light text-muted py-5" style="background: var(--color4)">
@@ -97,7 +118,7 @@
 					<div class="container boxxx" style="max-width: 300px">
 						<img src="img/me.jpg" alt="" class="img-fluid mb-3 rounded-circle "
 							xxxstyle="max-width: 300px;">
-						
+
 					</div>
 				</div>
 				<div class="col-md-8 boxxx text-dark">
@@ -159,14 +180,50 @@
 				<!-- GrowBox -->
 				<div class="card">
 					<a href="https://tavaresdev.github.io/TheGrowBox/" target="_blank" rel="noopener noreferrer">
-						<img src="img/projects/TheGrowBox ProjectSM.png" alt="TheGrowBoxProject" class="card-img-top">
+						<img src="img/projects/TheGrowBoxProjectSM.png" alt="TheGrowBoxProject" class="card-img-top">
 					</a>
-					<div class="card-body">
-						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/TheGrowBox/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
-						<p class="text-center text-dark small">Simple Responsive WebPage Created Using CSS3 Flexbox and consuming Thinkspeak.com API</p>
+					<div class="card-body d-flex justify-content-end flex-column ">
+						<h4 class="text-center mb-2"><a class="text-dark"
+								href="https://tavaresdev.github.io/TheGrowBox/" target="_blank"
+								rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
+						<p class="text-center text-dark small">Simple Responsive WebPage Created Using CSS3 Flexbox and
+							consuming Thinkspeak.com API</p>
 						<p class="text-center text-dark ">HTML5 | CSS3 </p>
-						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/TheGrowBox" target="_blank"
-							 rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/TheGrowBox"
+								target="_blank" rel="noopener noreferrer" class="github-link">GitHub <i
+									class="fa fa-github"></i></a></p>
+					</div>
+				</div>
+				<!-- Pepper -->
+				<div class="card">
+					<a href="pepper.html" target="_blank" rel="noopener noreferrer">
+						<img src="img\pepper\pepperSelfiePepper.jpeg" alt="Pepper site Homepage" class="card-img-top">
+					</a>
+					<div class="card-body d-flex justify-content-end flex-column">
+						<h4 class="text-center mb-2"><a class="text-dark" href="pepper.html" target="_blank"
+								rel="noopener noreferrer"> Pepper Robot</a></h4>
+						<p class="text-center text-dark small">Co-op Experience working With a Humanoid Robot</p>
+						<p class="text-center text-dark "> Python | JavaScript </p>
+						<p class="text-center text-dark mb-0"><a href="pepper.html" target="_blank" rel="noopener noreferrer"
+								class="github-link ">Learn More <i class="fa fa-robot"></i></a></p>
+					</div>
+				</div>
+				<!-- TheShoppies -->
+				<div class="card">
+					<a href="https://tavaresdev.github.io/TheShoppies/" target="_blank" rel="noopener noreferrer">
+						<img src="img/projects/TheShopiesTerminator.png" alt="The Shoppies " class="card-img-top">
+					</a>
+					<div class="card-body d-flex justify-content-end flex-column">
+						<h4 class="text-center mb-2 "><a class="text-dark"
+								href="https://tavaresdev.github.io/TheShoppies/" target="_blank"
+								rel="noopener noreferrer"> The Shoppies</a></h4>
+						<p class="text-center text-dark small"> App developed using bootstrap and OMDb API to create a
+							movie search and top five list functionality. Focus on user experience and responsiveness.
+						</p>
+						<p class="text-center text-dark ">Bootstrap | JavaScript </p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/TheShoppies"
+								target="_blank" rel="noopener noreferrer" class="github-link">GitHub <i
+									class="fa fa-github"></i></a></p>
 					</div>
 				</div>
 				<!-- Book List -->
@@ -174,41 +231,37 @@
 					<a href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer">
 						<img src="img/projects/BookListSm.png" alt="BookList Homepage" class="card-img-top">
 					</a>
-					<div class="card-body">
-						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer"> Book List</a></h4>
-						<p class="text-center text-dark small">Simple Responsive page using local memory to save list of books</p>
+					<div class="card-body d-flex justify-content-end flex-column">
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/BookList/"
+								target="_blank" rel="noopener noreferrer"> Book List</a></h4>
+						<p class="text-center text-dark small">Simple Responsive page using local memory to save list of
+							books</p>
 						<p class="text-center text-dark ">HTML5 | CSS3 | Bootstrap </p>
-						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/BookList" target="_blank"
-							 rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/BookList"
+								target="_blank" rel="noopener noreferrer" class="github-link">GitHub <i
+									class="fa fa-github"></i></a></p>
 					</div>
 				</div>
-				<!-- FCC Form -->
-				<!-- <div class="card">
-					<a href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer">
-						<img src="img/projects/FCCFormSurveySm.png" alt="FCC Form" class="card-img-top">
-					</a>
-					<div class="card-body">
-						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/BookList/" target="_blank" rel="noopener noreferrer"> The Grow Box WebSite</a></h4>
-						<p class="text-center text-dark small">Simple Responsive WebForm developed as part of FreeCodeCamp Responsive Web Design Certification</p>
-						<p class="text-center text-dark ">HTML5 | CSS3 </p>
-						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/BookList" target="_blank"
-								rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
-					</div>
-				</div> -->
 				<!-- Js game -->
 				<div class="card">
 					<a href="https://tavaresdev.github.io/GameJS/" target="_blank" rel="noopener noreferrer">
 						<img src="img/Projects/jsGame.png" alt="Alps" class="card-img-top">
 					</a>
-					<div class="card-body">
-						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/GameJS/" target="_blank" rel="noopener noreferrer"> JavaScript Game</a></h4>
-						<p class="text-center text-dark small">Simple Jump game developed to practice JavaScript concepts</p>
+					<div class="card-body d-flex justify-content-end flex-column">
+						<!-- <div> -->
+						<h4 class="text-center mb-2"><a class="text-dark" href="https://tavaresdev.github.io/GameJS/"
+								target="_blank" rel="noopener noreferrer"> JavaScript Game</a></h4>
+						<p class="text-center text-dark small">Simple Jump game developed to practice JavaScript
+							concepts</p>
 						<p class="text-center text-dark ">HTML | JavaScript </p>
-						<p class="text-center text-dark mb-0"><a href="https://github.com/TavaresDev/GameJS" target="_blank"
-								rel="noopener noreferrer" class="github-link">GitHub <i class="fa fa-github"></i></a></p>
+						<p class="text-center text-dark mb-0 "><a href="https://github.com/TavaresDev/GameJS"
+								target="_blank" rel="noopener noreferrer" class="github-link">GitHub <i
+									class="fa fa-github"></i></a></p>
 					</div>
+					<!-- </div> -->
 				</div>
-			</div> <!--end of galery card  -->
+			</div>
+			<!--end of galery card  -->
 		</div>
 	</section>
 
@@ -216,13 +269,17 @@
 
 	<!-- skills section -->
 
+	<section id="pepperSection" class="pepperSection">
+
+	</section>
+
 
 	<!-- contact header section -->
 	<section id="contact-head-section" class=" py-2">
 		<div class="row">
 			<div class="col text-center py-5">
 				<h1 class="display-4 text-muted">Contact</h1>
-		
+
 			</div>
 		</div>
 	</section>
@@ -245,12 +302,10 @@
 					<!-- <div class="container"> -->
 					<form name="contact" method="POST" data-netlify="true">
 						<fieldset class="form-group">
-							<input type="text" class="form-control" placeholder="Name" required
-							name="name">
+							<input type="text" class="form-control" placeholder="Name" required name="name">
 						</fieldset>
 						<fieldset class="form-group">
-							<input type="email" class="form-control" placeholder="Email" required
-							name="email">
+							<input type="email" class="form-control" placeholder="Email" required name="email">
 						</fieldset>
 						<fieldset class="form-group">
 							<textarea class="form-control" name="menssage" rows="3" required id=""
